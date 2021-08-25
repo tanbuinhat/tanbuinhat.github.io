@@ -239,10 +239,10 @@ font-weight:bold;
 
 .site-footer, footer a#back_to_top i {
     color: #899596;
-    position: sticky;
 }
 footer {
-    margin: 0 0 20px 0;
+    position: sticky;
+    padding: 0 0 20px 0;
     width: 100%;
 }
 .pull-right {
