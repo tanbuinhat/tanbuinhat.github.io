@@ -292,6 +292,26 @@ footer p {
     font-size:2.5em; 
 }
 
+#news-section {
+    margin-top: 20px;
+}
+
+.news-scroller {
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.news-scroller ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.news-scroller li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
 /* Smooth scrolling IF user doesn't have a preference due to motion sensitivities */
 @media screen and (prefers-reduced-motion: no-preference) {
     html {
