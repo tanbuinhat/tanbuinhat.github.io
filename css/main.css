@@ -276,7 +276,7 @@ footer p {
     transition: 0.35s ease;
     font-size:3em; 
 }
-.social-icon .fab.fa-graduation-cap:hover{
+.social-icon .fa.fa-graduation-cap:hover{
     transition: 0.35s ease;
     font-size:2.5em; 
 }
