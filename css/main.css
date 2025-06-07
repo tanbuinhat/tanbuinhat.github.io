@@ -95,7 +95,7 @@ p {
     flex-wrap: wrap;
     list-style: none;
     padding: 0;
-    margin-top: 30px;
+/*     margin-top: 30px; */
 }
 #profile .social-icon li {
     margin-right: 15px;
@@ -275,7 +275,7 @@ footer p {
     transition: 0.35s ease;
     font-size:2.5em; 
 }
-.social-icon .fa.fa-google:hover{
+.social-icon .fab.fa-google:hover{
     transition: 0.35s ease;
     font-size:2.5em; 
 }
