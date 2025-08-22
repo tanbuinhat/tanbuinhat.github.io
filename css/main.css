@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+/*     background: url(../images/bg.jpg) no-repeat fixed center;
+    background-size: cover; */
+}
+
+html {
+    color: #eee;
+    font-family: 'Roboto', sans-serif;
+}
+
+a,
+p {
+    color:#000000;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Merriweather', serif;
+    margin: 0px 0 10px 0;
+}
+#navbar-content li {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Tomorrow', sans-serif;
+    color: #000000;
+}
+#navbar-name {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 13px;
+    font-weight: 300;
+    font-family: 'Tomorrow', sans-serif;
+    color: #000000;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #888;
+}
+.navbar-collapse {
+    padding-left: 10px;
+    overflow-x: visible;
+}
+
+#profile {
+    text-align: center;
+    padding: 30px 10px;
+    position: relative;
+}
+#profile .portrait {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+}
+#profile .portrait-title h2 {
+    font-size: 36px;
+    font-weight: 300;
+    font-family: 'Tomorrow', sans-serif;
+    color: #000000;
+    margin: 20px 0 10px 0;
+}
+#profile .portrait-title h3 {
+    font-size: 20px;
+    font-weight: 300;
+    color: #000000;
+    margin: 0px 0 10px 0;
+}
+#profile ul.social-icon {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: -20px;
+}
+#profile .social-icon li {
+    margin-right: 15px;
+}
+.big-icon {
+    font-size: 40px;
+    color: #666;
+}
+
+ul.topnav li.topnav-right {
+    float: right;
+}
+
+ul.topnav li a {
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: #666;
+}
+
+ul.topnav li a:hover {
+    background-color: #0080ff;
+    color: #fff;
+}
+
+ul.topnav li.dropdownIcon {
+    display: none;
+}
+
+#intro {
+    font-size: 75px;
+    font-family: 'Tomorrow', sans-serif;
+}
+
+#about .about-title {
+    font-size: 36px;
+    font-family: 'Tomorrow', sans-serif;
+}
+#publication .publication-title {
+    font-size: 36px;
+    font-family: 'Tomorrow', sans-serif;
+}
+
+#contact-site {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+span.highlight
+{
+font-weight:bold;
+}
+
+#contact-site:hover {
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388;
+}
+
+#education .education-title {
+    font-size: 36px;
+    font-family: 'Tomorrow', sans-serif;
+}
+
+#education .article-title{
+    font-size: 22px;
+    font-weight: 300;
+    color: #000000;
+    margin: 20px 0 10px 0;
+    font-family: 'Merriweather', serif;
+}
+#education .article-content {
+    font-size: 18px;
+    font-weight: 300;
+    color: #000000;
+    margin: 0px 0 10px 0;
+    font-family: 'Merriweather', serif;
+}
+#publication .article-content {
+    font-size: 18px;
+    font-weight: 300;
+    color: #000000;
+    margin: 0px 0 10px 0;
+    font-family: 'Merriweather', serif;
+}
+
+#publication .publication-title {
+    font-size: 36px;
+    font-family: 'Tomorrow', sans-serif;
+}
+
+#publication .article-title {
+    font-size: 18px;
+    font-weight: 300;
+    color: #000000;
+    margin: 0px 0 10px 0;
+    font-family: 'Merriweather', serif;
+}
+
+#service .service-title {
+    font-size: 36px;
+    font-family: 'Tomorrow', sans-serif;
+}
+
+#school {
+    border-radius: 10px;
+    border: 4px solid white;
+    height: 85%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#award .award-title {
+    font-size: 36px;
+    font-family: 'Tomorrow', sans-serif;
+}
+
+/* Style the container/contact section */
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+/* Create two columns that float next to eachother */
+
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.site-footer, footer a#back_to_top i {
+    color: #899596;
+}
+footer {
+    margin: 0 0 20px 0;
+    padding: 0 20px 0 0;
+    width: 100%;
+}
+.pull-right {
+    float: right!important;
+}
+footer p {
+    font-size: 0.75rem;
+    text-align: right;
+}
+.certificate{
+    color:#000000;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Merriweather', serif;
+    margin: 0px 0 10px 0;
+}
+.social-icon .fa.fa-envelope:hover{
+    transition: 0.35s ease;
+    font-size:2.5em; 
+}
+.social-icon .fa.fa-graduation-cap:hover{
+    transition: 0.35s ease;
+    font-size:2.5em; 
+}
+.social-icon .fab.fa-instagram:hover{
+    transition: 0.35s ease;
+    font-size:2.5em; 
+}
+.social-icon .fab.fa-linkedin:hover{
+    transition: 0.35s ease;
+    font-size:2.5em; 
+}
+.social-icon .fab.fa-facebook:hover{
+    transition: 0.35s ease;
+    font-size:2.5em; 
+}
+.social-icon .fab.fa-github:hover{
+    transition: 0.35s ease;
+    font-size:2.5em; 
+}
+
+#news-section {
+    margin-top: 20px;
+}
+
+.news-scroller {
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.news-scroller ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.news-scroller li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+/* Smooth scrolling IF user doesn't have a preference due to motion sensitivities */
+@media screen and (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}  
