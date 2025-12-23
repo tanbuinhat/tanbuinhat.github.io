@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #f4f4f4;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3{
+  font-family: 'Merriweather', serif;
+}
+
+p {
+  color: #4F6371;
+  font-weight: 300;
+  font-size: 18px;
+  font-family: 'Merriweather', serif;
+  margin: 0; 
+  margin-bottom: 20px; 
+}
+
+p.quote {
+  font-size: 16px;
+  font-style: italic; 
+  color: #A9A9A9;
+}
+
+a:link {
+  color: #0000C8; 
+  text-decoration: none; 
+}
+
+a:visited {
+  color: #0000C8; 
+  text-decoration: none;
+}
+
+#profile .container {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.profile-left {
+  flex: 1;
+  min-width: 200px;
+}
+
+.profile-photo {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-right: 10px;
+}
+
+.profile-right {
+  flex: 2;
+  min-width: 280px;
+  padding: 0;
+}
+
+.social-links a {
+  font-size: 18px;     
+  text-decoration: none; 
+  color: #0000C8;
+} 
+
+span.highlight
+{
+  font-weight:bold;
+}
+
+span.author
+{
+  color:#000000;
+  font-weight:bold;
+}
+
+#publication .article-title {
+  font-size: 18px;  
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.publication-item {
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.publication-image {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.publication-image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.publication-text {
+  text-align: justify;
+  text-justify: inter-word;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .publication-text {
+    padding-left: 0 !important;
+    text-align: justify;
+  }
+}
+
+@media (max-width: 767px) {
+  #profile .container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .publication-image {
+    margin-bottom: 10px;
+    padding: 0 15px; 
+  }
+  .publication-text {
+    padding: 0 15px; 
+    text-align: justify;
+  }
+}
+
+ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
