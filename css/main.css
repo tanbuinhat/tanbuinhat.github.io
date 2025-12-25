@@ -89,6 +89,11 @@ span.author
   font-weight:bold;
 }
 
+#publication, #intro, #documents, #misc {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 #publication .article-title {
   font-size: 18px;  
   margin-bottom: 0;
@@ -151,4 +156,8 @@ ul {
 li {
   margin-bottom: 10px;
   font-size: 18px;
+}
+
+.col-xs-12 h2 {
+  margin-bottom: 10px;
 }
