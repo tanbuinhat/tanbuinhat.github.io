@@ -89,7 +89,7 @@ span.author
   font-weight:bold;
 }
 
-#publication, #intro, #documents, #misc {
+#publication, #intro, #documents, #blogs, #misc {
     text-align: justify;
     text-justify: inter-word;
 }
